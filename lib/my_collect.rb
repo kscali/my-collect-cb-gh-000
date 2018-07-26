@@ -8,10 +8,10 @@ def my_collect(array)
   collection 
 end  
 
-my_collect(array) do |name|
+my_collect(['Tim Jones', 'Tom Smith', 'Jim Campagno']) do |name|
   name.split(" ").first
 end
 
-my_collect(collection) do |lang|
+my_collect(['ruby, 'javascript', 'python', 'objective c']) do |lang|
   lang.upcase
 end
